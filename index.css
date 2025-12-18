@@ -1,14 +1,42 @@
 body{
-    margin:0;
-    height:100vh;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    background:black;
+  box-sizing:border-box;
+  margin:0;
+  width:100vw;
+  height:100vh;
+  background: url("menu.png") center center no-repeat;
+  background-size: contain;
+  background-color: black;
+  position:relative;
 }
-
-.container{
-    width:200px;
-    height:200px;
-    background:red;
+.btn{
+  position:absolute;
+  border:none;
+  cursor:pointer;
+  padding:24px;
+  font-size:16px;    
+  border-radius:8px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+#start{
+  width:240px;
+  height:75px;
+  left:670px;
+  top:50px;
+  background:green;
+}
+#minigamecomingsoon{
+  width:240px;
+  height:75px;
+  left:670px;
+  top:175px;
+  background:yellow;
+}
+#exit{
+  width:240px;
+  height:75px;
+  left:670px;
+  top:300px;
+  background:red;
 }
