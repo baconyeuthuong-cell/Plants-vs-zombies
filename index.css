@@ -3,7 +3,7 @@ body{
   margin:0;
   width:100vw;
   height:100vh;
-  background: url("menu.png") center center no-repeat;
+  background: url("image/menu.png") center center no-repeat;
   background-size: contain;
   background-color: black;
   position:relative;
