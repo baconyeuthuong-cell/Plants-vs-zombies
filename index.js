@@ -11,3 +11,4 @@ minigamecomingsoon.onclick = () => {
 exit.onclick = () => {
   alert("Exit r\u1ED3i th\u00EC t\u1EAFt tab \u0111i");
 };
+<---hi!--->
