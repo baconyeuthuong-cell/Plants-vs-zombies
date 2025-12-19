@@ -1,10 +1,4 @@
-body{
-  margin:0;
-  width:100vw;
-  height:100vh;
-  background:black url("image/menu.png") center center no-repeat;
-  background-size:auto;
-}
+body{ margin:0; width:100vw; height:100vh; background: black url("image/menu.png") center center no-repeat; background-size: contain; }
 .btn{
   position:absolute;
   border:none;
