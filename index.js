@@ -10,7 +10,6 @@ minigamecomingsoonBtn.onclick = () => {
 exitBtn.onclick = () => { 
   alert("Exit rồi thì tắt tab đi"); 
 };
-const v = loading;
-v.play().catch(()=>{});
-v.requestFullscreen?.();
-v.onended=()=>v.remove();
+loading.play();
+loading.requestFullscreen?.();
+loading.onended=()=>loading.remove();
