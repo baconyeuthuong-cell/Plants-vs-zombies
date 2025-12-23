@@ -10,4 +10,6 @@ minigamecomingsoonBtn.onclick = () => {
 exitBtn.onclick = () => { 
   alert("Exit rồi thì tắt tab đi"); 
 };
-loading.onended=()=>loading.remove();
+loading.onended= () => {
+  loading.remove();
+}
